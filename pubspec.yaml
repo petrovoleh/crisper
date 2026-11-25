@@ -1,0 +1,57 @@
+name: crisper
+description: "Crisper: AI Fridge & Zero-Waste Recipes Companion."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  shared_preferences: ^2.5.3
+  http: ^1.3.0
+  image_picker: ^1.1.2
+  share_plus: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: EditorialSerif
+      fonts:
+        - asset: assets/fonts/EditorialSerif_400_normal.ttf
+          weight: 400
+        - asset: assets/fonts/EditorialSerif_400_italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/EditorialSerif_500_normal.ttf
+          weight: 500
+        - asset: assets/fonts/EditorialSerif_600_normal.ttf
+          weight: 600
+        - asset: assets/fonts/EditorialSerif_700_normal.ttf
+          weight: 700
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans_400_normal.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSans_500_normal.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans_600_normal.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans_700_normal.ttf
+          weight: 700

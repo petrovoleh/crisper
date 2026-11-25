@@ -1,0 +1,8 @@
+{
+  "@@locale": "en",
+  "appTitle": "Crisper",
+  "aiLanguageName": "English (US)",
+  "@aiLanguageName": {
+    "description": "Name of this language, written in English, used to instruct the AI model which language to respond in."
+  }
+}
